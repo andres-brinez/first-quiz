@@ -17,5 +17,9 @@
 
 swapper = None
 
+def swapper(tup):
+  # Se invierte la tupla
+  return tup[::-1] # tup[1], tup[0], comienza en el final y va hacia el inicio para invertir la tupla
+
 def run_swapper(list_of_tuples):
   return list(map(swapper, list_of_tuples))
