@@ -1,3 +1,6 @@
+# se importa la funcion alchemy_combine y make_oven para poder realizar las pruebas
+from question3 import alchemy_combine, make_oven
+
 def test_alchemy_combine():
 
   assert alchemy_combine(
