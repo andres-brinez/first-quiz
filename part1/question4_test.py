@@ -1,5 +1,7 @@
-import pets_db as pets_db
+import pets_db as pets_db # Importa la base de datos
 from question4 import sql_pets_owned_by_nobody, sql_only_owned_by_bessie, sql_pets_older_than_owner
+
+# Exejucuta las sentencias sql y verifica los resultados
 
 def test_question4_pets_older_than_owner():
   pets_db.create_db()
